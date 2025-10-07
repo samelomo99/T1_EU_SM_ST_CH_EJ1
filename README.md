@@ -12,85 +12,36 @@
 
 El repositorio está organizado en las siguientes carpetas:
 
-### 📄 `code`  
-Contiene el código en R con todas las rutinas empleadas en el ejercicio:
-- Limpieza y preparación de datos.
-- Especificación y estimación de los modelos.
-- Generación de tablas y gráficas de resultados.  
+### 🧠 `code/`
+Contiene el código en **R** con todas las rutinas empleadas en el ejercicio:
+- Limpieza y preparación de datos.  
+- Especificación y estimación de los modelos.  
+- Generación de tablas y gráficas de resultados.
 
-### 📜 `data`  
+### 🗂️ `data/`
+Incluye la base de datos utilizada en el análisis, con información de transacciones inmobiliarias, características estructurales y variables de control.
 
-Contiene los scripts en R utilizados para el procesamiento de datos, entrenamiento de modelos y generación de resultados:  
+### 📈 `export/`
+Almacena los productos finales del ejercicio:
+- Gráficas de evolución de precios.  
+- Tablas resumen de resultados econométricos.  
 
-###### 1\. \*\*01\_preprocesamiento.R\*\*: Limpieza y preparación de los datos, creación de nuevas variables y ajustes a las bases de entrenamiento y prueba.  
+---
 
-###### 2\. \*\*02\_modelos.R\*\*: Entrenamiento y validación cruzada de distintos modelos de clasificación (Logit, Elastic Net, CART, Random Forest y XGBoost), junto con selección de hiperparámetros y evaluación de métricas.  
+## ⚙️ Desarrollo del ejercicio
 
-###### 3\. \*\*03\_metricas\_visuales.R\*\*: Generación de gráficas, cuadros resumen, y matrices de confusión para comparar el desempeño de los modelos.  
+El trabajo se estructuró en tres etapas principales:
 
-###### 
+1. **Preparación y limpieza de datos** 🧹  
+   Se realizó una descripción del conjunto de datos, eliminando observaciones con valores faltantes (*NA*) y seleccionando las variables de control relevantes para las regresiones.
 
-###### \### 📊 `stores`  
+2. **Estimación de modelos** 📉  
+   Se implementaron tres enfoques de modelación del precio de la vivienda:  
+   - Modelo **Hedónico simple**.  
+   - Modelo **Hedónico con efectos fijos y clúster a nivel de propiedad**.  
+   - Modelo **de Ventas Repetidas** (*Repeat Sales*).  
 
-###### Contiene la base de datos construida a partir de los archivos del DANE (MESEP), con variables consolidadas a nivel hogar:  
+3. **Comparación de resultados** 🔍  
+   Se compararon los modelos en términos de número de observaciones, poder explicativo y comportamiento temporal del índice de precios, evaluando la coherencia entre metodologías.
 
-###### \- `train\_completo\_hogares.csv`  
-
-###### \- `test\_completo\_hogares.csv`  
-
-###### 
-
-###### \### 📈 `views`  
-
-###### Almacena los cuadros y gráficas en orden según su aparición en el documento principal.  
-
-###### 
-
-###### \- \*\*Gráficas\*\*: Se encuentran en formatos JPG y PDF, lo que permite su inclusión en Overleaf sin inconvenientes.  
-
-###### \- \*\*Cuadros\*\*: Guardados en formato `.tex`, compatibles con LaTeX.  
-
-###### 
-
-###### ---
-
-###### 
-
-###### \## 📌 Resumen del ejercicio  
-
-###### 
-
-###### Este trabajo tuvo como objetivo desarrollar un modelo predictivo que permitiera identificar hogares en situación de pobreza a partir de información sociodemográfica y estructural. Utilizando técnicas de machine learning sobre datos del DANE y MESEP, se evaluó el rendimiento de distintos algoritmos, incluyendo regresión logística, Elastic Net, CART y Random Forest.  
-
-###### 
-
-###### La metodología incluyó validación cruzada, ajuste de hiperparámetros, comparación de métricas y análisis de importancia de variables. El modelo con mejor desempeño fue el Random Forest, el cual superó a las alternativas tradicionales tanto en sensibilidad como en AUC-ROC.  
-
-###### 
-
-###### ---
-
-###### 
-
-###### \### 🔍 Principales hallazgos  
-
-###### 
-
-###### \- El modelo de \*\*Random Forest\*\* logró un \*\*AUC-ROC superior a 0.84\*\* y una alta capacidad de detección de hogares pobres (sensibilidad > 0.96), sin requerir técnicas explícitas de rebalanceo.  
-
-###### \- Las variables más importantes en la predicción fueron la \*\*edad del jefe de hogar\*\*, \*\*educación promedio del hogar\*\*, \*\*número de ocupados\*\* y \*\*tasa de dependencia\*\*, en línea con la literatura económica.  
-
-###### \- Modelos tradicionales como Logit y Elastic Net, si bien útiles, presentaron menor capacidad para capturar relaciones complejas y no lineales.  
-
-###### \- La aplicación de modelos de clasificación puede mejorar significativamente la focalización de políticas públicas, al facilitar la identificación precisa de beneficiarios potenciales, optimizando así los recursos y el diseño de intervenciones.  
-
-###### 
-
-###### ---
-
-###### 
-
-###### 📌 \*\*Este repositorio corresponde a un ejercicio de análisis y predicción de la pobreza, aplicando técnicas aprendidas durante la clase de Big Data y Machine Learning de la Universidad de los Andes.\*\*
-
-
-
+---
