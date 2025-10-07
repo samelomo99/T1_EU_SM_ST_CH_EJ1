@@ -10,17 +10,17 @@
 
 ## 📂 Estructura del repositorio T1_EU_SM_ST_CH_EJ1 
 
-# El repositorio está organizado en las siguientes carpetas:
+El repositorio está organizado en las siguientes carpetas:
 
 ### 📄 `code`  
+Contiene el código en R con todas las rutinas empleadas en el ejercicio:
+- Limpieza y preparación de datos.
+- Especificación y estimación de los modelos.
+- Generación de tablas y gráficas de resultados.  
 
-Contiene el documento final en formato PDF del Problem Set 2. Más adelante se puede observar un resumen del ejercicio realizado, así como los principales resultados obtenidos.  
+### 📜 `data`  
 
-###### 
-
-###### \### 📜 `scripts`  
-
-###### Contiene los scripts en R utilizados para el procesamiento de datos, entrenamiento de modelos y generación de resultados:  
+Contiene los scripts en R utilizados para el procesamiento de datos, entrenamiento de modelos y generación de resultados:  
 
 ###### 1\. \*\*01\_preprocesamiento.R\*\*: Limpieza y preparación de los datos, creación de nuevas variables y ajustes a las bases de entrenamiento y prueba.  
 
