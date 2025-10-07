@@ -4,21 +4,17 @@
 
 ###### 
 
-\### Santiago Melo, Corina Hernández, Sara Torres  
+### Santiago Melo, Corina Hernández, Sara Torres  
 
 ---
 
-###### \## 📂 Estructura del repositorio PS2\_SM\_MB\_MB\_DL  
+## 📂 Estructura del repositorio T1_EU_SM_ST_CH_EJ1 
 
-###### 
+# El repositorio está organizado en las siguientes carpetas:
 
-###### El repositorio está organizado en las siguientes carpetas:  
+### 📄 `code`  
 
-###### 
-
-###### \### 📄 `document`  
-
-###### Contiene el documento final en formato PDF del Problem Set 2. Más adelante se puede observar un resumen del ejercicio realizado, así como los principales resultados obtenidos.  
+Contiene el documento final en formato PDF del Problem Set 2. Más adelante se puede observar un resumen del ejercicio realizado, así como los principales resultados obtenidos.  
 
 ###### 
 
