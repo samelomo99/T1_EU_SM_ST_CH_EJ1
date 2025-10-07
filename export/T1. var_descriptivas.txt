@@ -1,0 +1,27 @@
+\begin{table}[H]
+\centering
+\caption{Variables de control incluidas en el modelo}
+\label{tab:controles}
+\begin{tabular}{ll}
+\hline
+\textbf{Variable} & \textbf{Descripción} \\ 
+\hline
+\texttt{year\_built} & Año de construcción de la vivienda. \\ 
+\texttt{class} & Categoría o estrato de la edificación según su uso o calidad. \\ 
+\texttt{building\_sqft} & Área construida total (en pies cuadrados o metros cuadrados). \\ 
+\texttt{num\_bedrooms} & Número total de habitaciones. \\ 
+\texttt{num\_full\_baths} & Número de baños completos. \\ 
+\texttt{num\_fireplaces} & Número de chimeneas. \\ 
+\texttt{type\_of\_residence} & Tipo de residencia (casa, apartamento, dúplex, etc.). \\ 
+\texttt{construction\_quality} & Calificación de la calidad de la construcción. \\ 
+\texttt{attic\_finish} & Nivel de acabado del ático. \\ 
+\texttt{garage\_attached} & Indicador de si el garaje está adosado a la vivienda. \\ 
+\texttt{garage\_size} & Capacidad del garaje (número de vehículos). \\ 
+\texttt{basement\_type} & Tipo de sótano (terminado, parcial, sin terminar, etc.). \\ 
+\texttt{roof\_material} & Material principal del techo. \\ 
+\texttt{renovation} & Indicador de si la vivienda ha sido renovada. \\ 
+\texttt{porch} & Presencia de porche o terraza. \\ 
+\texttt{central\_air} & Indicador de si cuenta con sistema de aire acondicionado central. \\ 
+\hline
+\end{tabular}
+\end{table}

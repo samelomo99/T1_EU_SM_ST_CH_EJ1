@@ -1,0 +1,24 @@
+\begin{table}[H]
+\centering
+\caption{Resumen de estadísticos de los modelos de estimación del precio de la vivienda}
+\label{tab:resumen_modelos}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccc}
+\toprule
+ & \textbf{Índice Hedónico} & \textbf{Índice Hedónico con EF y Clúster} & \textbf{Índice de Ventas Repetidas} \\
+\midrule
+Observaciones & 426.589 & 233.388 & 133.710 \\
+R$^{2}$ & 0,359 & 0,869 & 0,257 \\
+R$^{2}$ ajustado & 0,359 & --- & 0,257 \\
+R$^{2}$ dentro (Within) & --- & 0,304 & --- \\
+Error estándar residual & 0,570 & --- & 1,000 \\
+\midrule
+Efectos fijos & No & Sí (propiedad, municipio) & No \\
+Errores agrupados (clúster) & No & Sí (propiedad) & No \\
+\bottomrule
+\end{tabular}
+}
+\begin{flushleft}
+\footnotesize{\textit{Nota}: EF = Efectos Fijos. Los resultados se estimaron sobre el logaritmo natural del precio de venta. El modelo con efectos fijos utiliza únicamente propiedades con más de una venta, razón por la cual presenta un menor número de observaciones.}
+\end{flushleft}
+\end{table}
