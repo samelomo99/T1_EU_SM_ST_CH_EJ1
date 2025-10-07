@@ -18,6 +18,9 @@ Contiene el código en **R** con todas las rutinas empleadas en el ejercicio:
 - Especificación y estimación de los modelos.  
 - Generación de tablas y gráficas de resultados.
 
+Requerimientos
+Paquetes: `tidyverse`, `modeldata`, `stargazer`, `broom`, `fixest`, `dplyr`, `summarytools`, `DataExplorer`
+
 ### 🗂️ `data/`
 Incluye la base de datos utilizada en el análisis, con información de transacciones inmobiliarias, características estructurales y variables de control.
 
