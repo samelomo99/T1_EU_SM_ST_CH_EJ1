@@ -1,58 +1,112 @@
-# \# Taller 1 Economía Urbana - Ejercicio 1
+# \# 🏙️ Taller 1 - Economía Urbana  
+
+# \## 📊 Ejercicio 1: Modelos de precios de vivienda
 
 # 
 
-# Este repositorio contiene el desarrollo del \*\*Ejercicio 1\*\* del Taller 1 del curso de Economía Urbana. El ejercicio tiene como objetivo estimar y comparar distintos modelos de precios de vivienda con base en información de Cook County, Illinois.
+# Este repositorio contiene el desarrollo del \*\*Ejercicio 1\*\* del Taller 1 del curso de \*\*Economía Urbana\*\*.  
 
-# 
-
-# \## Estructura del repositorio
-
-# 
-
-# \- \*\*/code/\*\*  
-
-# &nbsp; Contiene el código en \*\*R\*\* utilizado para el desarrollo del ejercicio. Incluye las rutinas de limpieza de datos, estimación de modelos y generación de resultados gráficos y tabulares.
-
-# 
-
-# \- \*\*/data/\*\*  
-
-# &nbsp; Incluye la base de datos empleada en el análisis, con información de transacciones inmobiliarias y características estructurales de las viviendas.
-
-# 
-
-# \- \*\*/export/\*\*  
-
-# &nbsp; Almacena las \*\*gráficas\*\* y \*\*tablas\*\* generadas a partir de los resultados de los modelos, utilizadas en el informe del ejercicio.
-
-# 
-
-# \## Descripción general del ejercicio
-
-# 
-
-# El desarrollo del punto se llevó a cabo en tres etapas principales:
-
-# 
-
-# 1\. \*\*Preparación y limpieza de datos:\*\*  
-
-# &nbsp;  Se realizó una descripción inicial del conjunto de datos, eliminando observaciones con valores faltantes (\*NA\*) y seleccionando las variables de control relevantes para las estimaciones.
-
-# 
-
-# 2\. \*\*Estimación de modelos:\*\*  
-
-# &nbsp;  Se estimaron tres enfoques de modelación del precio de la vivienda: un modelo hedónico simple, un modelo hedónico con efectos fijos y agrupación por propiedad, y un modelo de ventas repetidas.
-
-# 
-
-# 3\. \*\*Comparación de resultados:\*\*  
-
-# &nbsp;  Finalmente, se compararon los resultados obtenidos bajo cada metodología, evaluando diferencias en el poder explicativo, el número de observaciones y el comportamiento temporal de los índices estimados.
+# El objetivo es estimar y comparar distintos modelos de precios de vivienda utilizando información del \*\*Cook County (Illinois)\*\*.
 
 # 
 
 # ---
+
+# 
+
+# \## 📁 Estructura del repositorio
+
+# 
+
+# \### 🧠 `code/`
+
+# Contiene el código en \*\*R\*\* con todas las rutinas empleadas en el ejercicio:
+
+# \- Limpieza y preparación de datos.  
+
+# \- Especificación y estimación de los modelos.  
+
+# \- Generación de tablas y gráficas de resultados.
+
+# 
+
+# \### 🗂️ `data/`
+
+# Incluye la base de datos utilizada en el análisis, con información de transacciones inmobiliarias, características estructurales y variables de control.
+
+# 
+
+# \### 📈 `export/`
+
+# Almacena los productos finales del ejercicio:
+
+# \- Gráficas de evolución de precios.  
+
+# \- Tablas resumen de resultados econométricos.  
+
+# 
+
+# ---
+
+# 
+
+# \## ⚙️ Desarrollo del ejercicio
+
+# 
+
+# El trabajo se estructuró en tres etapas principales:
+
+# 
+
+# 1\. \*\*Preparación y limpieza de datos\*\* 🧹  
+
+# &nbsp;  Se realizó una descripción del conjunto de datos, eliminando observaciones con valores faltantes (\*NA\*) y seleccionando las variables de control relevantes para las regresiones.
+
+# 
+
+# 2\. \*\*Estimación de modelos\*\* 📉  
+
+# &nbsp;  Se implementaron tres enfoques de modelación del precio de la vivienda:  
+
+# &nbsp;  - Modelo \*\*Hedónico simple\*\*.  
+
+# &nbsp;  - Modelo \*\*Hedónico con efectos fijos y clúster a nivel de propiedad\*\*.  
+
+# &nbsp;  - Modelo \*\*de Ventas Repetidas\*\* (\*Repeat Sales\*).  
+
+# 
+
+# 3\. \*\*Comparación de resultados\*\* 🔍  
+
+# &nbsp;  Se compararon los modelos en términos de número de observaciones, poder explicativo y comportamiento temporal del índice de precios, evaluando la coherencia entre metodologías.
+
+# 
+
+# ---
+
+# 
+
+# \## 🧾 Información adicional
+
+# 
+
+# \*\*Autor:\*\* Santiago Melo Montero  
+
+# \*\*Curso:\*\* Economía Urbana  
+
+# \*\*Lenguaje:\*\* R  
+
+# \*\*Institución:\*\* \[Nombre de la universidad o entidad, si aplica]  
+
+# \*\*Año:\*\* 2025  
+
+# 
+
+# ---
+
+# 
+
+# > 💡 \*Este repositorio busca documentar de forma ordenada el proceso de estimación y análisis de los modelos de precios de vivienda, facilitando su reproducción y comprensión.\*
+
+
 
