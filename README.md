@@ -28,7 +28,7 @@ Almacena los productos finales del ejercicio:
 
 ---
 
-## ⚙️ Desarrollo del ejercicio
+## ⚙️ Desarrollo del ejercicio 1
 
 El trabajo se estructuró en tres etapas principales:
 
