@@ -1,6 +1,6 @@
-###### \# PS2\_SM\_MB\_MB\_DL  
+# PS2\_SM\_MB\_MB\_DL  
 
-###### \## Taller 2 - Problem Set 2: Predicting Poverty  
+## Taller 2 - Problem Set 2: Predicting Poverty  
 
 ###### 
 
