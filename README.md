@@ -19,6 +19,7 @@ Contiene el código en **R** con todas las rutinas empleadas en el ejercicio:
 - Generación de tablas y gráficas de resultados.
 
 Requerimientos
+
 Paquetes: `tidyverse`, `modeldata`, `stargazer`, `broom`, `fixest`, `dplyr`, `summarytools`, `DataExplorer`
 
 ### 🗂️ `data/`
