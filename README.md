@@ -1,16 +1,12 @@
-# PS2\_SM\_MB\_MB\_DL  
+# T1_EU_SM_ST_CH_EJ1 
 
-## Taller 2 - Problem Set 2: Predicting Poverty  
-
-###### 
-
-###### \### Santiago Melo, Miguel Blanco, María Bernal, Diana Lopera  
+## Taller 1 - Economía Urbana - Ejercicio 1  
 
 ###### 
 
-###### ---
+\### Santiago Melo, Corina Hernández, Sara Torres  
 
-###### 
+---
 
 ###### \## 📂 Estructura del repositorio PS2\_SM\_MB\_MB\_DL  
 
